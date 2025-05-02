@@ -25,7 +25,7 @@ class UMLAggregation:
 
 class UMLModel:
     def __init__(self):
-        self.classes: Dict[str, UMLClass] = {}
+        self.classes: Dict[str, UMLClass] =  {}
         self.aggregations: List[UMLAggregation] = []
 
     def add_class(self, uml_class: UMLClass):
