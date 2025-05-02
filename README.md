@@ -32,9 +32,3 @@ meta.json
 A metadata file describing each UML class, its attributes, relationships, and whether it's a root object. This format is consumed by the frontend.
 
 
-Design Principles
-
-Object-Oriented Design: Clean separation of model, parsing, and generation logic.
-Scalability: Easy to extend for new output formats or input structures.
-Maintainability: Modular, testable, and clear file structure.
-No External Dependencies: Uses only the Python Standard Library.
